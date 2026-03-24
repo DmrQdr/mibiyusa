@@ -1,0 +1,125 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Manrope:wght@400;600&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="head.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="site-title">
+                <h2 class="tagline">Practical Solutions • Reliable Advice</h2>
+            </div>
+            <a class="cta" href="LogIn.html">Log in for extra benefits</a>
+            <a class="cta" href="LogIn.html">Sign Up</a>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Index.html">Profile</a></li>
+            <li><a href="Courses.html">Courses</a></li>
+            <li><a class="active" href="Application.html">Application</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="container">
+            <div class="form-card">
+                <h2>Join Our Team</h2>
+                <p>We're always looking for talented, passionate individuals to join the us. If you're interested in
+                    working with us on innovative projects and making an impact, we'd love
+                    to hear from you!</p>
+
+                <h3>Why Work With Us?</h3>
+                <ul>
+                    <li>Opportunities to work on cutting-edge technology projects</li>
+                    <li>A collaborative, supportive team environment</li>
+                    <li>Professional development and training opportunities</li>
+                    <li>Competitive compensation and benefits</li>
+                    <li>Flexible working arrangements</li>
+                </ul>
+
+                <h3>Application Form</h3>
+                <p class="note">Please complete the form below and attach your CV/Resume. Fields marked * are required.
+                </p>
+
+                <form id="applicationForm" action="#" method="POST" onsubmit="return false;">
+                    <p class="note">This is a demo form. No data is collected or stored.</p>
+                    <div class="form-group">
+                        <label for="fullname">Full name *</label>
+                        <input type="text" id="fullname" name="fullname" class="form-control">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" class="form-control" >
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input type="text" id="address" name="address" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="position">Position applied for *</label>
+                        <input type="text" id="position" name="position" class="form-control" >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cover">Cover letter / message</label>
+                        <textarea id="cover" name="cover" class="form-control" rows="6"></textarea>
+                    </div>
+
+                    <label>
+                        <input type="checkbox">
+                        I consent to OakBank processing my data for recruitment purposes. Read our <a href="Privacy.html">Privacy Policy</a> for more information.
+                    </label>
+
+                    <div style="margin-top:16px">
+                        <button type="submit">Submit application</button>
+                        <button type="reset">Reset</button>
+                    </div>
+
+                </form>
+
+                <script>
+                    document.getElementById('applicationForm').addEventListener('submit', function (e) {
+                        e.preventDefault();
+                        alert('Application submitted successfully (demo only).');
+                    });
+                </script>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+            <div class="links">
+                <a href="Index.html">Profile</a>
+                <a href="Courses.html">Courses</a>
+                <a href="Application.html">Application</a>
+                <a href="ContactUs.html">Contact Us</a>
+                <small>© 2026 Company Name. All rights reserved.</small>
+            </div>
+        </div>
+    </footer>
+    <script>
+    </script>
+</body>
+
+</html>
